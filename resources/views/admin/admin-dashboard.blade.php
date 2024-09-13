@@ -20,5 +20,12 @@
                 <dd class="text-yellow-500 font-semibold dark:text-gray-400">Total Categories</dd>
             </div>
         </div>
+
+        {{-- testing livewire --}}
+        <div class="mt-10">
+            <h1 class="bg-yellow-500 text-slate-100 px-3 py-2">this is an example of livewire method</h1>
+            <livewire:example-component/>
+        </div>
+
     </div>
 @endsection
